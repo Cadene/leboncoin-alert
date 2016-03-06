@@ -233,12 +233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ninsuo/leboncoin-crawler.git",
-                "reference": "fe622718b589c57ab21c757c8c484838a4592604"
+                "reference": "2bbfb36e3c87c4674725f8d31cd2a508e0f74eea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ninsuo/leboncoin-crawler/zipball/fe622718b589c57ab21c757c8c484838a4592604",
-                "reference": "fe622718b589c57ab21c757c8c484838a4592604",
+                "url": "https://api.github.com/repos/ninsuo/leboncoin-crawler/zipball/2bbfb36e3c87c4674725f8d31cd2a508e0f74eea",
+                "reference": "2bbfb36e3c87c4674725f8d31cd2a508e0f74eea",
                 "shasum": ""
             },
             "require": {
@@ -247,8 +247,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Fuz": "src"
+                "psr-4": {
+                    "Fuz\\": "src/Fuz/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -262,7 +262,7 @@
                 }
             ],
             "homepage": "https://github.com/ninsuo/leboncoin-crawler",
-            "time": "2016-03-06 11:23:12"
+            "time": "2016-03-06 15:07:10"
         },
         {
             "name": "psr/http-message",
