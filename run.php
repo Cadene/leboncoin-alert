@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
 $config  = Symfony\Component\Yaml\Yaml::parse(file_get_contents('config.yml'));
 $crawler = new Fuz\LeBonCoin\Crawler();
