@@ -28,8 +28,13 @@ cp config.yml.dist config.yml
 emacs -nw config.yml
 ```
 
-## Run
+## Usage
 
 Just type `php run.php` to test your configuration.
 
-Add a crontab to run "run.php" every XX minutes (5 is fair enough).
+Add a crontab to run "run.php" every XX minutes (5 is fair enough):
+
+```
+*/5 * * * * php /home/ninsuo/leboncoin/leboncoin-alert/run.php
+```
+
