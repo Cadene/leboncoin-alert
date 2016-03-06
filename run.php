@@ -1,7 +1,7 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
 
-$config  = Symfony\Component\Yaml\Yaml::parse(file_get_contents('config.yml'));
+$config  = Symfony\Component\Yaml\Yaml::parse(file_get_contents(__DIR__.'/config.yml'));
 $crawler = new Fuz\LeBonCoin\Crawler();
 
 foreach ($config['urls'] as $title => $url) {
