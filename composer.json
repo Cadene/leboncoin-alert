@@ -1,0 +1,13 @@
+{
+    "require": {
+        "ninsuo/leboncoin-crawler": "dev-master",
+        "swiftmailer/swiftmailer": "*",
+        "symfony/yaml": "^3.0",
+        "twig/twig": "^1.24"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fuz": "src"
+        }
+    }
+}

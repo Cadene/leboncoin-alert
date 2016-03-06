@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <center>
+
+            <h1>{{ ads|length }} new ads!</h1>
+
+            {% for ad in ads %}
+                {{ include('ad.html.twig', ad) }}
+                <br/>
+            {% endfor %}
+
+        </center>
+    </body>
+</html>

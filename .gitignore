@@ -1,0 +1,4 @@
+vendor
+config.yml
+cache/*
+!cache/.gitkeep

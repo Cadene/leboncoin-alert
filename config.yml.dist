@@ -1,0 +1,13 @@
+mail:
+    smtp:      'mail.example.org'
+    port:      25
+    user:      'auto@example.org'
+    pass:      'your mail password'
+    from_name: 'Le Bon Coin Alert'
+    from_mail: 'leboncoin@example.org'
+    to_name:   'me'
+    to_mail:   'leboncoin@example.orgs'
+
+urls:
+    search title: 'http://www.leboncoin.fr/...your/search/results'
+    # ...

@@ -1,0 +1,41 @@
+{#
+ # ad.html.twig
+ # email template for one ad
+ #}
+<table style="width: 80%;">
+    <tr style="border: 1px solid blue;">
+        <td align="middle" valign="middle" width="150">
+            <img
+                src="{{ image }}"
+                alt="{{ title }}"
+                style="max-width: 120px; max-height: 120px;"
+             />
+        </td>
+        <td align="center" valign="middle" width="200">
+            <span style="font-size: 36px;">{{ price }}</span>
+        </td>
+        <td width="600">
+            <table>
+                <tr>
+                    <td align="center" valign="middle" style="font-size: 24px;" colspan="2">
+                        <a href="{{ url }}">
+                            {{ title }}
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>{{ category }}</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>{{ location }}</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>{{ date }}</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
