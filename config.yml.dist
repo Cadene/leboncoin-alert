@@ -8,6 +8,8 @@ mail:
     to_name:   'me'
     to_mail:   'leboncoin@example.orgs'
 
+# One search per line, spaces at the beginning are very important
 urls:
-    search title: 'http://www.leboncoin.fr/...your/search/results'
+    search title 1: 'http://www.leboncoin.fr/...your/search/results'
+    search title 2: 'http://www.leboncoin.fr/...your/search/results'
     # ...
