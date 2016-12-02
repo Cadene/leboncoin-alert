@@ -10,9 +10,7 @@ Here are instructions to get started with the application.
 
 ```sh
 # Clone the project
-mkdir leboncoin-alert
-cd leboncoin-alert
-git clone https://github.com/ninsuo/leboncoin-alert.git ./
+git clone https://github.com/ninsuo/leboncoin-alert.git
 
 # install Composer
 php -r "readfile('https://getcomposer.org/installer');" | php
